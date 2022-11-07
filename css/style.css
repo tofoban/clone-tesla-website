@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-weight: 400;
+  line-height: 1.6;
+
+  background-size: cover;
+  background-repeat: none;
+}
+html {
+  font-size: 62.5%; /* 1rem=10px */
+}
+main {
+  height: 100vh;
+  width: 98.5vw;
+}
+
+header {
+  background-color: transparent;
+  font-size: 2rem;
+  display: flex;
+  width: 98.5%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin-top: 1rem;
+  margin-right: 10rem;
+  margin: 4rem 0 0 rem;
+  flex: 0 0 60%;
+}
+#h1 {
+  margin: -1rem 3rem;
+  width: 12rem;
+}
+#h1 a {
+  color: rgba(0, 0, 0, 0.9);
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.center-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-nav a {
+  font-weight: 10rem;
+  text-decoration: none;
+  margin: 0 1rem;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 0.85rem 1.5rem;
+  transition: all 0.2s;
+}
+.center-nav a:hover {
+  border-radius: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.right-nav a {
+  text-decoration: none;
+  /* margin: 0 1rem; */
+  color: rgba(0, 0, 0, 0.9);
+  margin-right: 1rem;
+  padding: 0.85rem 1.5rem;
+  transition: all 0.2s;
+}
+.right-nav a:hover {
+  border-radius: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.center-h1 {
+  font-size: 5rem;
+  margin-left: 40%;
+  padding-top: 10rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+.center-h2 {
+  font-size: 2rem;
+  margin-left: 35%;
+  color: rgba(0, 0, 0, 0.5);
+  letter-spacing: 3px;
+}
+.center-h2 a {
+  color: grey;
+}
+.custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32rem;
+  font-size: 1.5rem;
+}
+.custom-button1 {
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 5rem;
+  padding: 1rem 8rem;
+}
+.custom-button1 a {
+  text-decoration: none;
+  color: white;
+}
+.custom-button2 {
+  border-radius: 100px;
+  background-color: #fff;
+  padding: 1rem 5rem;
+}
+.custom-button2 a {
+  text-decoration: none;
+  color: black;
+}
+.wrapper-box1 {
+  height: 100vh;
+  background: url(/images/M3-Homepage-D.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper-box2 {
+  height: 100vh;
+  background: url(/images/Desktop-ModelY.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper-box3 {
+  height: 100vh;
+  background: url(/images/ms-homepage-desktop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper-box4 {
+  height: 100vh;
+  background: url(/images/ModelX-Homepage-D.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper-box5 {
+  height: 100vh;
+  background: url(/images/_25-HP-SolarPanels-D.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper-box6 {
+  height: 100vh;
+  background: url(/images/HP-SR-Design-D.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper-box7 {
+  height: 100vh;
+  width: 100wh;
+  background: url(/images/Desktop-Accessories.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
